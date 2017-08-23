@@ -75,6 +75,7 @@
             this.btnAsk.TabIndex = 3;
             this.btnAsk.Text = "Perguntar por uma carta";
             this.btnAsk.UseVisualStyleBackColor = true;
+            this.btnAsk.Click += new System.EventHandler(this.btnAsk_Click);
             // 
             // label1
             // 
@@ -87,7 +88,6 @@
             // 
             // txtName
             // 
-            this.txtName.Enabled = false;
             this.txtName.Location = new System.Drawing.Point(13, 36);
             this.txtName.Name = "txtName";
             this.txtName.Size = new System.Drawing.Size(196, 20);
@@ -110,6 +110,7 @@
             this.btnStart.TabIndex = 7;
             this.btnStart.Text = "Começar o jogo";
             this.btnStart.UseVisualStyleBackColor = true;
+            this.btnStart.Click += new System.EventHandler(this.btnStart_Click);
             // 
             // label3
             // 
